@@ -6,23 +6,20 @@ import Modal from './components/Modal/Modal';
 import './App.css';
 
 function App() {
-  // Состояние для модального окна
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState({ name: '', quantity: 0, totalPrice: 0 });
 
-  // Функция открытия модального окна
   const handleOpenModal = (productName: string, quantity: number, totalPrice: number) => {
     setSelectedProduct({ name: productName, quantity, totalPrice });
     setIsModalOpen(true);
   };
 
-  // Функция закрытия модального окна
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
 
   return (
-    <div className="app">
+    <div>
       <Hero />
       <ProductGrid onOpenModal={handleOpenModal} />
       <Gallery />

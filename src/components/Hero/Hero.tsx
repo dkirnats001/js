@@ -10,38 +10,38 @@ import vector from '../../assets/Vector.png';
 const Hero = () => {
   return (
     <div className={styles.container0} style={{ backgroundImage: `url(${bgImage})` }}>
-      {/* ШАПКА ВНУТРИ HERO */}
+      {/* ШАПКА */}
       <div className={styles.shapka}>
-        <span className={styles.company}>Сладкий сундук</span>
-        <div className={styles.ia}>
-          <span className={styles.icon}>
-            <img src={icon} alt="icon" />
-          </span>
-          <span className={styles.address}>г. Санкт Петербург, ул. Куйбышева 31</span>
-        </div>
-        <span className={styles.vector}>
+        <span className={styles.nasvanie}>Сладкий сундук</span>
+        <span className={styles.icon}>
+          <img src={icon} alt="icon" />
+        </span>
+        <span className={styles.adres}>г. Санкт Петербург, ул. Куйбышева 31</span>
+        <span className={styles.icon2}>
           <img src={vector} alt="vector" />
         </span>
-        <div className={styles.vnt}>
-          <span className={styles.number}>8 (812) 844-95-49</span>
-          <span className={styles.time}>Ежедневно с 9:00 до 20:00</span>
-        </div>
+        <span className={styles.nomer}>8 (812) 844-95-49</span>
+        <span className={styles.grafik}>Ежедневно с 9:00 до 20:00</span>
       </div>
 
-      {/* ОСНОВНОЙ КОНТЕНТ HERO */}
-      <div className={styles.blok}>
-        <button className={styles.btn}>вкуснейшие</button>
-        <h1 className={styles.title2}>Пирожные и капкейки от 150 ₽/шт. с доставкой по Санкт Петербургу</h1>
-        <span className={styles.subtitle2}>Приготовим за 3 часа в день заказа. Доставка на авто в холодильнике.</span>
-        <button className={styles.mainBut}>Перейти в каталог</button>
-        <p className={styles.textBut}>9 различных<br />видов на выбор</p>
-      </div>
-      
+      {/* КНОПКА "ВКУСНЕЙШИЕ" */}
+      <button className={styles.tastybutton}>вкуснейшие</button>
+
+      {/* ЗАГОЛОВКИ */}
+      <h1 className={styles.header0}>Пирожные и капкейки от 150 ₽/шт. с доставкой по Санкт Петербургу</h1>
+      <span className={styles.header01}>Приготовим за 3 часа в день заказа. Доставка на авто в холодильнике.</span>
+
+      {/* КНОПКА "ПЕРЕЙТИ В КАТАЛОГ" */}
+      <button className={styles.katalogbutton}>Перейти в каталог</button>
+
+      {/* ТЕКСТ "9 РАЗЛИЧНЫХ ВИДОВ" */}
+      <p className={styles.header02}>9 различных видов на выбор</p>
+
       {/* ДЕКОРАТИВНЫЕ ЭЛЕМЕНТЫ */}
-      <div className={styles.berry2} style={{ backgroundImage: `url(${berry2})` }}></div>
-      <div className={styles.berry3} style={{ backgroundImage: `url(${berry3})` }}></div>
-      <div className={styles.berry4} style={{ backgroundImage: `url(${berry4})` }}></div>
-      <div className={styles.leaf3} style={{ backgroundImage: `url(${leaf3})` }}></div>
+      <div className={styles.malinka1} style={{ backgroundImage: `url(${berry3})` }}></div>
+      <div className={styles.malinka2} style={{ backgroundImage: `url(${berry4})` }}></div>
+      <div className={styles.malinka} style={{ backgroundImage: `url(${berry2})` }}></div>
+      <div className={styles.list3} style={{ backgroundImage: `url(${leaf3})` }}></div>
     </div>
   );
 };
