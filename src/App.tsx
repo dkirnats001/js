@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import ProductGrid from './components/ProductGrid/ProductGrid';
 import Gallery from './components/Gallery/Gallery';
@@ -24,7 +23,6 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
       <Hero />
       <ProductGrid onOpenModal={handleOpenModal} />
       <Gallery />
