@@ -1,0 +1,237 @@
+/* ОСНОВНОЙ БЛОК С ФОНОМ */
+.container0 {
+  position: relative;
+  width: 100%;
+  height: 1294px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0;
+}
+
+/* ===== ШАПКА ===== */
+.shapka {
+  position: relative;
+  width: 100%;
+  height: 82px;
+  top: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 370px;
+  z-index: 10;
+}
+
+.nasvanie {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 143%;
+  color: white;
+  white-space: nowrap;
+}
+
+.adres {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: white;
+  white-space: nowrap;
+}
+
+.nomer {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 152%;
+  color: white;
+  white-space: nowrap;
+}
+
+.grafik {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: white;
+  white-space: nowrap;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  width: 17px;
+  height: 23px;
+}
+
+.icon2 {
+  display: flex;
+  align-items: center;
+}
+
+.icon2 img {
+  width: 36px;
+  height: 36px;
+}
+
+/* ===== ГРУППА ЭЛЕМЕНТОВ СЛЕВА ===== */
+.leftGroup {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+/* ===== ГРУППА ЭЛЕМЕНТОВ СПРАВА ===== */
+.rightGroup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+/* ===== КНОПКА "ВКУСНЕЙШИЕ" ===== */
+.tastybutton {
+  position: absolute;
+  left: 370px;
+  top: 300px;
+  width: 132px;
+  height: 37px;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #2E363E;
+  background-color: #F2F6FA;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+/* ===== ЗАГОЛОВОК H1 ===== */
+.header0 {
+  position: absolute;
+  left: 370px;
+  top: 365px;
+  width: 647px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: white;
+}
+
+/* ===== ПОДЗАГОЛОВОК ===== */
+.header01 {
+  position: absolute;
+  left: 370px;
+  top: 555px;
+  width: 544px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 143%;
+  color: white;
+}
+
+/* ===== КНОПКА "ПЕРЕЙТИ В КАТАЛОГ" ===== */
+.katalogbutton {
+  position: absolute;
+  left: 370px;
+  top: 675px;
+  width: 277px;
+  height: 88px;
+  padding: 30px 50px;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 152%;
+  color: #2E363E;
+  background-color: #FED84C;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+/* ===== ТЕКСТ "9 РАЗЛИЧНЫХ ВИДОВ" ===== */
+.header02 {
+  position: absolute;
+  left: 670px;
+  top: 700px;
+  width: 150px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: white;
+}
+
+/* ===== ДЕКОРАТИВНЫЕ ЭЛЕМЕНТЫ ===== */
+.malinka {
+  position: absolute;
+  width: 170px;
+  height: 174px;
+  top: 1530px;
+  left: 210px;
+  background-size: cover;
+  background-position: center;
+}
+
+.malinka1 {
+  position: absolute;
+  width: 195.65px;
+  height: 201.41px;
+  left: 0px;
+  top: 200.77px;
+  background-size: cover;
+  background-position: center;
+}
+
+.malinka2 {
+  position: absolute;
+  width: 195.65px;
+  height: 201.41px;
+  left: 1475.2px;
+  top: 875.35px;
+  background-size: cover;
+  background-position: center;
+}
+
+.list3 {
+  position: absolute;
+  width: 275px;
+  height: 286px;
+  top: 914.13px;
+  left: 0%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== ХОВЕР ===== */
+.tastybutton:hover,
+.katalogbutton:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  background-color: #2e363e;
+  color: white;
+}
+
+.katalogbutton:hover {
+  background-color: #2e363e;
+  color: white;
+}
